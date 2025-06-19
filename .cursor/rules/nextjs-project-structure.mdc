@@ -1,0 +1,40 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Estructura del Proyecto - NextJS
+
+Este es un proyecto **NextJS** con TypeScript que utiliza pnpm, Tailwind CSS y shadcn/ui.
+
+## Estructura de directorios:
+- [src/app/](mdc:src/app) - App Router de NextJS 13+
+  - [layout.tsx](mdc:src/app/layout.tsx) - Layout principal
+  - [page.tsx](mdc:src/app/page.tsx) - Página principal
+  - [globals.css](mdc:src/app/globals.css) - Estilos globales
+- [src/components/](mdc:src/components) - Componentes reutilizables
+  - [ui/](mdc:src/components/ui) - Componentes de shadcn/ui
+- [src/hooks/](mdc:src/hooks) - Custom hooks
+- [src/lib/](mdc:src/lib) - Utilidades y configuraciones
+- [public/](mdc:public) - Archivos estáticos
+
+## Configuración:
+- [next.config.ts](mdc:next.config.ts) - Configuración de NextJS
+- [tsconfig.json](mdc:tsconfig.json) - Configuración de TypeScript
+- [eslint.config.mjs](mdc:eslint.config.mjs) - Configuración de ESLint
+- [.prettierrc](mdc:.prettierrc) - Configuración de Prettier
+
+## Tecnologías principales:
+1. **pnpm** - Gestor de paquetes
+2. **Tailwind CSS** - Framework de estilos
+3. **shadcn/ui** - Biblioteca de componentes
+4. **TypeScript** - Tipado estático
+5. **NextJS 13+** - Framework de React con App Router
+
+## Convenciones de desarrollo:
+- Usar TypeScript para todos los archivos
+- Seguir las convenciones de NextJS App Router
+- Implementar componentes con shadcn/ui
+- Estilizar con Tailwind CSS
+- Mantener código limpio y bien documentado
+

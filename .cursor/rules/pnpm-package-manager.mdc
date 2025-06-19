@@ -1,0 +1,25 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Gestor de Paquetes - pnpm
+
+Este proyecto utiliza **pnpm** como gestor de paquetes principal.
+
+## Comandos importantes:
+
+- `pnpm install` - Instalar dependencias
+- `pnpm add <package>` - Agregar nueva dependencia
+- `pnpm add -D <package>` - Agregar dependencia de desarrollo
+- `pnpm remove <package>` - Remover dependencia
+- `pnpm run <script>` - Ejecutar script definido en [package.json](mdc:package.json)
+- `pnpm dev` - Iniciar servidor de desarrollo
+- `pnpm build` - Construir para producción
+- `pnpm start` - Iniciar servidor de producción
+
+## Archivos de configuración:
+- [package.json](mdc:package.json) - Configuración del proyecto y dependencias
+- [pnpm-lock.yaml](mdc:pnpm-lock.yaml) - Archivo de bloqueo de versiones
+
+**IMPORTANTE**: Siempre usar pnpm en lugar de npm o yarn para mantener consistencia en el proyecto.
