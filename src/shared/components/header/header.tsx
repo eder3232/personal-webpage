@@ -5,6 +5,9 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
+import Bocchi from "@/../public/brand/bocchi_right.png";
+import Image from "next/image";
+
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,12 +23,13 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center">
+          <div className="flex items-center gap-4">
+            <Image src={Bocchi} alt="Bocchi" width={32} height={32} />
             <a
               href="#inicio"
               className="text-xl font-bold text-gray-900 transition-colors hover:text-blue-600 dark:text-white dark:hover:text-blue-400"
             >
-              Tu Nombre
+              eder3232
             </a>
           </div>
 
