@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -10,15 +11,14 @@ export default function Home() {
       >
         <div className="text-center">
           <h1 className="mb-4 text-4xl font-bold text-gray-900 md:text-6xl dark:text-white">
-            ¡Hola! Soy Tu Nombre
+            eder3232
           </h1>
-          <p className="mb-8 text-xl text-gray-600 dark:text-gray-300">
-            Desarrollador Full Stack apasionado por crear experiencias digitales
-            increíbles
+          <p className="mb-8 text-3xl text-gray-600 dark:text-gray-300">
+            Tecnología para un mundo mejor
           </p>
-          <button className="rounded-lg bg-blue-600 px-8 py-3 font-medium text-white transition-colors hover:bg-blue-700">
+          <Button size="lg" className="px-8 py-6 text-xl font-medium">
             Ver Proyectos
-          </button>
+          </Button>
         </div>
       </section>
 
@@ -32,9 +32,14 @@ export default function Home() {
             Sobre Mí
           </h2>
           <p className="mx-auto max-w-3xl text-lg text-gray-600 dark:text-gray-300">
-            Soy un desarrollador apasionado por la tecnología y la innovación.
-            Me especializo en crear aplicaciones web modernas y escalables
-            utilizando las últimas tecnologías y mejores prácticas.
+            En el vasto lienzo de la existencia, donde el sufrimiento y el dolor
+            a menudo trazan sus sombras, encuentro en la tecnología un faro. No
+            busco la belleza ilusoria, sino la utilidad transformadora; la que
+            alivia cargas, acorta distancias y, en su ingenio, nos acerca a la
+            visión de un horizonte menos arduo. Es por ello que mi camino se
+            traza en el código y la innovación: tecnología para un mundo mejor,
+            una pulsación que busca mitigar y construir puentes sobre las
+            asperezas de la vida.
           </p>
         </div>
       </section>
